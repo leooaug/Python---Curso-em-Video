@@ -1,0 +1,6 @@
+nome = str(input('Digite o seu nome completo: '))
+print('Se o valor retornado pelo programa for 0, o nome digitado não tem "Silva".')
+print('Caso o valor retornado seja positivo, o nome digitado tem a palavra "Silva".')
+nome = nome.title()
+s = nome.count('Silva')
+print(s)
